@@ -1,0 +1,12 @@
+connecting to mysql :- mysql -u root -p
+disply all database:-show database;
+create database:-create database express_practies;
+using database:-use express_practies;
+display the table stracture:-desc user;
+create table and cloumn:- create table user(id int NOT NULL AUTO_INCREMENT PRIMARY KEY,name varchar(20),email varchar(20),password varchar(10));
+disply table data:-select * from user;
+drop table:-DROP TABLE user
+insert data:-insert into user(name,email,password) values(?,?,?)";
+update user-update user set name=?,email=?,password=? where id=?;
+delete user:-delete from user where id=?;
+findOne user:-select * from user where id=?
